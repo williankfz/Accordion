@@ -11,10 +11,9 @@ function initAccordion(){
     this.nextElementSibling.classList.toggle('active');
   }
 
-  question.forEach((item) =>{
-    item.addEventListener('click',accordion);
+  question.forEach((item)=>{
+    item.addEventListener('click', accordion);
   });
-
 }
 
 initAccordion();
